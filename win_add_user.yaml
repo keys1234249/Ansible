@@ -5,6 +5,6 @@
     tasks:
       - name: Add User
         win_user:
-          name: "{{ morpheus['customOptions']['userids'] }}"
+          name: "githubansible"
           password: "Temp1234!"
           state: present
