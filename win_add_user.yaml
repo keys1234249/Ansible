@@ -5,6 +5,6 @@
     tasks:
       - name: Add User
         win_user:
-          name: "{{ morpheus['customOptions']['username'] }}"
+          name: "{{ morpheus['customOptions']['userids'] }}"
           password: "Temp1234!"
           state: present
